@@ -9,7 +9,7 @@ class Settings(BaseSettings):
     APP_SECRET_KEY: str = "change-me-in-production"
     APP_HOST: str = "0.0.0.0"
     APP_PORT: int = 8000
-    CORS_ORIGINS: List[str] = ["http://localhost:3000"]
+    CORS_ORIGINS: List[str] = ["https://geo-kost-lhok.vercel.app"]
 
     # Database
     DATABASE_URL: str = "postgresql://postgres:password@localhost:5432/geokost"
@@ -24,7 +24,17 @@ class Settings(BaseSettings):
     MODEL_C45_PATH: str = "models_pkl/c45_model.pkl"
     MODEL_REGRESSION_PATH: str = "models_pkl/price_regressor.pkl"
 
-    model_config = SettingsConfigDict(env_file=".env", case_sensitive=True)
+    # Email / SMTP
+    SMTP_HOST: str = "smtp.gmail.com"
+    SMTP_PORT: int = 587
+    SMTP_USER: str = ""
+    SMTP_PASS: str = ""
+    ADMIN_EMAIL: str = "admin@geokost.id"
+
+    # Frontend URL
+    FRONTEND_URL: str = "https://geo-kost-lhok.vercel.app"
+
+    model_config = SettingsConfigDict(env_file=".env", case_sensitive=True, extra="ignore")
 
 
 @lru_cache()
