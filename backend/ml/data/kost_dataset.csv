@@ -1,0 +1,501 @@
+harga_per_bulan,jarak_meter,jumlah_fasilitas,jumlah_fasilitas_cocok,luas_m2,tipe_kamar_match,rasio_harga_budget,label
+316026,657,5,5,21,1,0.495,Sangat Direkomendasikan
+1206142,3294,3,0,19,0,0.8355,Kurang Sesuai
+1050942,4816,3,1,16,1,0.703,Kurang Sesuai
+770541,4350,3,1,22,0,0.6219,Kurang Sesuai
+762919,1442,6,5,8,0,0.743,Direkomendasikan
+1316177,2324,3,0,23,0,1.0025,Kurang Sesuai
+311729,2701,9,4,22,0,0.6349,Direkomendasikan
+1106578,1314,5,0,15,1,0.9651,Kurang Sesuai
+461910,1416,8,7,19,0,0.6944,Direkomendasikan
+322430,1259,7,5,15,0,0.4797,Direkomendasikan
+884422,4973,4,2,11,0,1.0052,Kurang Sesuai
+1468309,3755,3,1,21,1,0.9335,Kurang Sesuai
+1156478,4220,7,1,10,1,1.2951,Kurang Sesuai
+1189481,4101,3,3,11,1,0.8044,Kurang Sesuai
+1132720,4799,3,2,15,0,0.925,Kurang Sesuai
+1221883,615,9,3,21,1,0.9475,Direkomendasikan
+867194,4419,5,2,13,1,0.8732,Kurang Sesuai
+366547,426,1,1,15,1,1.534,Kurang Sesuai
+1291672,2429,5,4,6,0,0.8787,Direkomendasikan
+785501,3012,5,2,8,1,0.7262,Kurang Sesuai
+850457,1853,8,2,7,0,1.0244,Kurang Sesuai
+682037,816,7,5,7,0,1.4006,Kurang Sesuai
+437314,1042,2,1,22,0,0.9788,Direkomendasikan
+1404794,4140,2,1,21,0,1.1117,Kurang Sesuai
+1216037,1661,6,0,21,0,1.0007,Kurang Sesuai
+1037024,1620,1,0,7,0,0.8373,Kurang Sesuai
+723138,4624,3,2,7,0,1.4073,Kurang Sesuai
+1269590,804,2,2,11,1,0.81,Direkomendasikan
+909057,4584,1,1,16,0,1.1525,Kurang Sesuai
+776438,4612,9,3,12,1,0.6513,Kurang Sesuai
+785597,3032,1,1,15,1,0.7331,Direkomendasikan
+495410,911,1,0,9,1,1.1982,Kurang Sesuai
+319776,863,9,0,19,1,0.6799,Direkomendasikan
+920960,1495,2,2,11,0,1.298,Kurang Sesuai
+1354256,2929,8,8,7,1,1.1942,Kurang Sesuai
+282962,852,1,1,20,1,0.3784,Sangat Direkomendasikan
+1315778,2332,2,1,23,0,0.7937,Kurang Sesuai
+1275920,665,1,0,6,0,1.1605,Kurang Sesuai
+559787,2747,7,7,14,1,1.152,Kurang Sesuai
+1021163,203,6,3,21,0,1.1613,Kurang Sesuai
+414797,3574,5,1,19,0,0.9626,Kurang Sesuai
+1185514,371,3,3,22,1,1.0598,Direkomendasikan
+1110679,1054,1,1,13,1,1.035,Direkomendasikan
+660883,955,6,5,13,0,0.8425,Direkomendasikan
+288296,4171,3,1,19,1,2.0,Kurang Sesuai
+1461907,361,6,6,8,0,0.7825,Sangat Direkomendasikan
+779393,2203,7,3,10,1,0.7342,Direkomendasikan
+1361057,2996,8,4,17,1,0.8153,Kurang Sesuai
+1081294,2628,5,4,18,0,1.1793,Kurang Sesuai
+1211898,3435,1,1,8,0,0.8197,Direkomendasikan
+1187869,4035,3,0,15,1,0.763,Kurang Sesuai
+453030,2028,8,2,12,0,1.5453,Kurang Sesuai
+673077,4158,5,2,15,0,0.691,Kurang Sesuai
+806737,1658,6,6,24,0,1.0175,Direkomendasikan
+847129,4923,5,4,7,1,0.7196,Kurang Sesuai
+256944,2572,2,1,24,0,0.7565,Kurang Sesuai
+910540,3706,9,7,14,1,0.7271,Kurang Sesuai
+400576,4387,7,5,20,1,1.8332,Kurang Sesuai
+1166388,3983,9,3,14,0,0.9904,Kurang Sesuai
+1087963,4270,8,3,11,1,1.0807,Kurang Sesuai
+1399286,2728,3,3,20,1,1.0781,Kurang Sesuai
+1168190,313,3,2,19,0,1.0478,Direkomendasikan
+676635,2516,3,0,8,1,0.9913,Kurang Sesuai
+1457762,989,9,7,19,0,1.1573,Direkomendasikan
+734105,4456,6,4,20,0,0.7343,Kurang Sesuai
+623572,1260,5,3,13,0,0.8164,Direkomendasikan
+1377196,1217,9,7,23,1,0.7912,Direkomendasikan
+681597,1321,6,6,18,1,0.7208,Direkomendasikan
+299246,3248,9,3,12,0,2.0,Kurang Sesuai
+810422,2899,9,4,6,1,1.4309,Kurang Sesuai
+1234383,4749,1,0,18,1,0.9699,Kurang Sesuai
+446312,2139,4,3,9,1,0.8402,Direkomendasikan
+801822,1483,7,3,20,1,1.1553,Kurang Sesuai
+368897,341,8,3,15,0,0.531,Direkomendasikan
+1092421,134,2,2,14,1,0.8686,Direkomendasikan
+818416,1930,3,1,9,0,0.7328,Direkomendasikan
+629255,4636,5,2,19,0,1.511,Kurang Sesuai
+494982,2666,8,3,9,0,0.5844,Direkomendasikan
+933849,4478,2,0,13,1,1.1692,Kurang Sesuai
+1070758,598,6,0,21,1,0.9481,Kurang Sesuai
+1422397,557,3,3,23,0,0.9651,Direkomendasikan
+768297,4183,2,0,24,0,0.6831,Kurang Sesuai
+408894,623,5,1,24,0,1.2377,Kurang Sesuai
+1282481,354,4,3,16,1,1.0914,Direkomendasikan
+1018693,2080,6,0,9,0,1.0286,Kurang Sesuai
+1110344,4631,3,2,21,1,1.0103,Kurang Sesuai
+326394,3477,8,6,21,0,1.9005,Kurang Sesuai
+606076,585,1,1,24,0,1.3554,Direkomendasikan
+1198197,4201,8,2,18,1,1.1061,Kurang Sesuai
+1281937,4233,1,0,8,0,0.9454,Kurang Sesuai
+765781,4023,7,7,15,0,1.0342,Kurang Sesuai
+1246193,4523,4,1,14,0,0.9892,Kurang Sesuai
+1294199,1275,4,4,22,1,0.8246,Direkomendasikan
+703721,4899,1,0,13,0,1.1798,Kurang Sesuai
+1367513,1671,7,1,12,0,0.7617,Kurang Sesuai
+574826,4029,2,2,7,0,0.656,Direkomendasikan
+511425,2938,6,6,21,1,1.4563,Kurang Sesuai
+1087244,3919,7,6,20,1,1.0471,Kurang Sesuai
+1027790,3176,8,6,6,1,1.1751,Kurang Sesuai
+381678,3248,7,1,14,0,1.2726,Kurang Sesuai
+1282557,3119,3,3,15,1,1.006,Kurang Sesuai
+459880,3917,7,5,14,0,1.7381,Kurang Sesuai
+1246368,3721,8,1,23,1,1.3011,Kurang Sesuai
+209570,759,3,0,8,1,0.8041,Kurang Sesuai
+1235895,4147,2,2,11,1,0.8258,Kurang Sesuai
+1223001,2726,9,2,9,1,1.0495,Kurang Sesuai
+1214473,1683,2,2,10,1,0.7577,Direkomendasikan
+1064306,2619,6,0,23,0,1.0043,Kurang Sesuai
+813037,4838,3,1,23,1,0.659,Kurang Sesuai
+1116714,4302,2,0,6,1,1.1106,Kurang Sesuai
+560258,4185,7,2,18,1,0.8099,Kurang Sesuai
+1214947,2367,2,2,10,1,0.7964,Direkomendasikan
+922341,3942,7,7,9,0,1.3775,Kurang Sesuai
+796590,1986,7,7,11,1,0.6421,Direkomendasikan
+857288,3462,1,1,9,0,1.0095,Kurang Sesuai
+939363,3233,2,0,15,1,0.9052,Kurang Sesuai
+248441,1324,8,8,24,1,0.5506,Sangat Direkomendasikan
+381736,1405,5,3,17,0,0.6404,Direkomendasikan
+519125,399,2,1,19,1,2.0,Kurang Sesuai
+348889,784,9,7,15,1,0.4698,Sangat Direkomendasikan
+771497,2224,3,3,6,1,0.795,Direkomendasikan
+1068923,2441,1,1,7,0,0.6817,Direkomendasikan
+1050757,909,9,5,11,0,0.9315,Direkomendasikan
+812425,2142,1,1,10,1,0.8098,Direkomendasikan
+1311604,3060,5,4,21,1,0.9613,Kurang Sesuai
+934806,1239,9,2,22,1,0.6942,Direkomendasikan
+302956,1757,6,2,22,1,0.4529,Direkomendasikan
+1194498,1900,6,4,18,0,0.7367,Direkomendasikan
+946980,2574,4,0,16,1,0.9015,Kurang Sesuai
+1025133,1895,2,0,18,0,0.7547,Kurang Sesuai
+934985,3711,6,5,13,1,1.0141,Kurang Sesuai
+919653,1704,9,9,18,1,0.9304,Direkomendasikan
+317736,2226,1,1,21,1,0.5076,Direkomendasikan
+926969,1959,8,3,20,1,1.3398,Kurang Sesuai
+1233386,996,4,2,17,0,0.8213,Direkomendasikan
+595135,3460,5,4,7,0,1.9336,Kurang Sesuai
+983689,1253,2,1,19,0,0.8567,Direkomendasikan
+240063,1554,6,0,12,1,0.7459,Kurang Sesuai
+651748,3984,2,1,20,0,0.8969,Kurang Sesuai
+767732,4749,3,1,16,1,0.8894,Kurang Sesuai
+1477559,3387,7,5,22,0,0.9405,Kurang Sesuai
+478960,4590,1,1,12,0,0.9487,Kurang Sesuai
+559512,4285,5,5,23,0,0.9016,Kurang Sesuai
+731087,2456,6,4,22,0,0.8255,Direkomendasikan
+1490465,3874,2,1,12,0,0.8275,Kurang Sesuai
+1309423,1708,3,1,15,0,0.9023,Kurang Sesuai
+245100,2356,4,0,16,1,0.5338,Kurang Sesuai
+504121,2723,6,6,20,1,0.5772,Direkomendasikan
+1268176,4806,9,8,19,1,0.7206,Kurang Sesuai
+275793,4257,8,7,22,0,2.0,Kurang Sesuai
+1312372,2497,2,0,13,1,0.8292,Kurang Sesuai
+565799,3297,1,0,15,1,1.2688,Kurang Sesuai
+1392947,1091,1,1,14,1,1.114,Direkomendasikan
+581671,4041,6,3,23,0,0.635,Kurang Sesuai
+764611,2809,2,2,11,1,1.4716,Kurang Sesuai
+1060491,2710,3,1,17,1,0.7371,Kurang Sesuai
+364164,3854,8,3,8,0,0.5351,Kurang Sesuai
+924141,3201,8,5,22,0,0.6508,Direkomendasikan
+856520,455,8,7,13,1,0.7852,Direkomendasikan
+1219067,1511,3,1,12,0,0.7537,Direkomendasikan
+1494938,965,6,5,17,0,1.1591,Direkomendasikan
+1063607,3700,6,1,15,1,0.7208,Kurang Sesuai
+731942,272,2,1,22,0,1.3066,Kurang Sesuai
+728302,1091,5,5,16,0,1.0714,Direkomendasikan
+743346,3027,5,5,15,0,1.3617,Kurang Sesuai
+1258226,3504,4,4,7,1,0.9833,Kurang Sesuai
+617580,2566,7,2,6,0,0.6736,Kurang Sesuai
+417064,4317,7,6,13,1,1.258,Kurang Sesuai
+634578,4602,5,5,24,0,0.6395,Direkomendasikan
+229525,747,7,7,23,1,0.5537,Sangat Direkomendasikan
+337985,4767,7,0,17,1,0.6246,Kurang Sesuai
+317062,3110,6,5,17,1,0.4128,Direkomendasikan
+1203018,3217,3,3,13,1,0.9636,Kurang Sesuai
+1139067,565,7,6,9,0,1.0218,Direkomendasikan
+1105802,3147,7,1,6,1,0.6905,Kurang Sesuai
+800440,3656,9,7,12,1,0.8461,Kurang Sesuai
+1132176,2945,2,0,12,1,0.8552,Kurang Sesuai
+409653,514,4,2,9,1,1.1816,Kurang Sesuai
+1370808,2663,9,6,10,1,1.1027,Kurang Sesuai
+851358,4686,5,2,6,0,1.2389,Kurang Sesuai
+1419466,3644,9,6,17,0,1.0933,Kurang Sesuai
+398005,773,1,0,23,0,1.566,Kurang Sesuai
+846529,4803,1,1,19,0,0.74,Kurang Sesuai
+1105216,4798,8,5,14,1,1.2979,Kurang Sesuai
+844313,930,4,3,13,1,0.8058,Direkomendasikan
+780003,4024,5,1,11,0,0.6293,Kurang Sesuai
+416078,2092,4,1,8,0,0.5711,Direkomendasikan
+695327,3009,4,1,17,1,0.9689,Kurang Sesuai
+510396,2281,9,4,16,1,1.9789,Kurang Sesuai
+591965,3934,1,1,6,1,0.6171,Direkomendasikan
+1088810,4983,7,2,13,1,1.3759,Kurang Sesuai
+1019367,3996,9,4,11,1,0.8062,Kurang Sesuai
+989355,4663,6,2,9,1,0.8069,Kurang Sesuai
+670356,4735,4,1,19,0,1.2796,Kurang Sesuai
+1447600,541,2,1,15,1,0.8322,Direkomendasikan
+313944,1341,7,6,18,0,2.0,Kurang Sesuai
+645368,3637,5,1,19,0,1.2272,Kurang Sesuai
+353407,2991,2,2,24,0,0.5027,Direkomendasikan
+640626,345,4,2,21,0,0.57,Direkomendasikan
+1450466,565,9,1,17,0,1.0648,Kurang Sesuai
+676142,2650,3,1,22,1,0.6074,Direkomendasikan
+1381154,3119,2,0,15,1,0.7623,Kurang Sesuai
+843585,921,7,0,24,0,0.7278,Kurang Sesuai
+1109619,939,2,1,20,1,1.2039,Kurang Sesuai
+794642,733,9,4,18,0,1.0824,Kurang Sesuai
+545630,2868,8,7,23,0,0.6926,Direkomendasikan
+1193498,138,9,1,15,1,0.705,Direkomendasikan
+1459929,2904,9,8,19,0,0.8059,Direkomendasikan
+542582,2432,3,0,11,1,0.9374,Kurang Sesuai
+1212376,2383,2,0,24,1,1.1016,Kurang Sesuai
+539482,3428,4,3,17,0,0.5353,Direkomendasikan
+1131957,2660,5,4,20,0,1.0751,Kurang Sesuai
+1225708,3665,8,5,14,1,1.0219,Kurang Sesuai
+784169,3843,7,0,22,1,0.6244,Kurang Sesuai
+1157995,4608,6,0,7,1,0.8858,Kurang Sesuai
+553914,4016,8,3,8,0,1.1897,Kurang Sesuai
+303029,2636,6,3,15,0,2.0,Kurang Sesuai
+325308,2511,4,4,19,1,0.8809,Direkomendasikan
+781130,1254,4,1,21,1,0.6151,Direkomendasikan
+1373383,3038,5,1,14,0,0.9676,Kurang Sesuai
+365849,781,1,1,18,1,0.5849,Sangat Direkomendasikan
+792509,4663,7,1,16,1,1.1404,Kurang Sesuai
+1115241,4240,6,0,24,0,0.7768,Kurang Sesuai
+463072,686,7,3,18,0,0.5909,Direkomendasikan
+1138101,3951,5,2,13,1,0.8591,Kurang Sesuai
+597743,673,8,5,24,1,0.6531,Direkomendasikan
+1251258,3634,9,8,8,0,0.8847,Kurang Sesuai
+952985,529,6,6,24,0,0.9972,Direkomendasikan
+910979,2492,4,1,8,1,0.7583,Kurang Sesuai
+429804,3323,1,1,11,0,0.5387,Direkomendasikan
+802167,3671,8,5,21,1,0.6827,Kurang Sesuai
+1313598,2151,9,0,19,1,1.1094,Kurang Sesuai
+225381,4615,7,7,24,1,0.483,Direkomendasikan
+1186075,3894,8,1,20,0,1.3334,Kurang Sesuai
+840591,1120,8,5,18,0,0.8421,Direkomendasikan
+1135301,3389,8,7,12,0,0.8786,Kurang Sesuai
+1062287,3679,5,1,6,1,1.0087,Kurang Sesuai
+761720,1734,1,0,8,0,0.606,Kurang Sesuai
+601267,3717,1,0,11,0,0.5967,Kurang Sesuai
+1015501,4501,2,2,6,0,1.3605,Kurang Sesuai
+382291,4103,4,1,15,0,1.5331,Kurang Sesuai
+959327,3836,7,5,20,0,1.1618,Kurang Sesuai
+323103,3209,5,2,24,1,0.4359,Direkomendasikan
+1044800,1425,1,0,15,1,0.9007,Kurang Sesuai
+1017368,3996,2,2,22,0,0.7823,Direkomendasikan
+309777,1884,9,8,24,0,0.471,Sangat Direkomendasikan
+1184734,2707,9,5,22,0,0.7904,Kurang Sesuai
+740549,1640,4,0,14,1,1.447,Kurang Sesuai
+1222952,1633,8,1,12,0,1.1813,Kurang Sesuai
+254098,872,7,3,24,1,0.9401,Direkomendasikan
+433293,4810,9,5,10,0,1.0725,Kurang Sesuai
+842188,824,8,4,13,0,0.7389,Direkomendasikan
+444692,522,6,1,7,1,1.649,Kurang Sesuai
+628819,4687,4,2,21,1,1.0044,Kurang Sesuai
+1058778,2819,6,2,18,1,1.1168,Kurang Sesuai
+387881,2245,3,2,7,1,1.6233,Kurang Sesuai
+1081013,3713,4,3,10,1,1.176,Kurang Sesuai
+334423,1978,6,4,16,1,1.7526,Kurang Sesuai
+427740,726,6,0,16,0,0.7385,Direkomendasikan
+963937,3675,6,6,21,0,0.9717,Kurang Sesuai
+1231528,962,4,0,11,0,0.9623,Kurang Sesuai
+421770,2809,4,4,23,0,0.8347,Direkomendasikan
+589990,4750,1,0,14,0,0.6683,Kurang Sesuai
+1402656,4687,6,3,21,0,0.7827,Kurang Sesuai
+1486588,1867,6,0,10,0,0.9246,Kurang Sesuai
+955379,3923,9,0,6,1,0.8171,Kurang Sesuai
+781149,3102,5,4,7,0,0.7287,Direkomendasikan
+650930,2448,5,4,13,1,0.7207,Direkomendasikan
+996187,785,1,0,24,0,1.2397,Kurang Sesuai
+968190,1944,2,2,6,1,0.6656,Direkomendasikan
+583178,3294,4,1,13,1,1.4052,Kurang Sesuai
+229645,4934,4,1,8,0,0.8863,Kurang Sesuai
+396947,123,4,1,23,0,0.6412,Direkomendasikan
+1446126,3617,4,2,18,1,0.9846,Kurang Sesuai
+743601,4247,7,1,20,1,1.1653,Kurang Sesuai
+826994,4760,2,1,19,0,0.6534,Kurang Sesuai
+807239,2176,3,0,18,1,1.4301,Kurang Sesuai
+1217555,680,2,0,20,1,1.0927,Kurang Sesuai
+284443,1427,3,1,6,0,0.3652,Direkomendasikan
+307548,4267,7,5,22,0,0.52,Direkomendasikan
+558601,4401,1,1,20,0,1.7021,Kurang Sesuai
+832655,3221,4,1,20,1,0.7328,Kurang Sesuai
+1072461,701,1,0,13,1,0.6928,Direkomendasikan
+837919,697,9,7,21,1,1.3599,Kurang Sesuai
+773518,2443,7,5,13,1,0.9612,Kurang Sesuai
+1419174,2982,3,3,6,0,0.9501,Direkomendasikan
+409324,258,2,2,23,0,1.9115,Kurang Sesuai
+943246,3461,1,1,10,0,1.1736,Kurang Sesuai
+904918,2768,5,5,7,0,1.2164,Kurang Sesuai
+815536,160,7,3,17,1,1.2285,Kurang Sesuai
+1249876,568,6,2,10,1,0.9821,Direkomendasikan
+547068,2326,8,2,22,0,0.885,Kurang Sesuai
+1439904,3640,4,1,14,1,1.0824,Kurang Sesuai
+631039,4144,3,2,6,1,1.1217,Kurang Sesuai
+908505,2213,5,4,24,0,1.1918,Kurang Sesuai
+876874,1547,2,2,15,1,0.7225,Direkomendasikan
+1304711,4844,9,1,10,1,1.1112,Kurang Sesuai
+770584,2346,2,1,18,1,0.6439,Direkomendasikan
+569926,1645,5,1,16,1,0.813,Kurang Sesuai
+228095,2267,5,5,6,0,0.4,Sangat Direkomendasikan
+672781,159,1,0,20,1,0.7629,Direkomendasikan
+1274179,1579,5,0,13,0,1.0734,Kurang Sesuai
+212891,2626,5,3,19,1,0.5404,Direkomendasikan
+1365009,4600,3,3,23,0,1.0628,Kurang Sesuai
+905675,3717,2,2,17,0,1.2929,Kurang Sesuai
+382323,3928,1,0,18,1,1.3363,Kurang Sesuai
+592833,2770,1,0,10,0,1.1548,Kurang Sesuai
+920246,641,5,0,10,0,1.2636,Kurang Sesuai
+610399,2015,1,0,13,1,1.8537,Kurang Sesuai
+341148,4985,9,5,22,0,0.4285,Kurang Sesuai
+1065785,316,3,1,15,1,0.9059,Direkomendasikan
+1073912,4408,6,0,12,0,0.9802,Kurang Sesuai
+354536,3454,7,4,20,0,0.444,Direkomendasikan
+565603,1491,5,0,22,1,1.27,Kurang Sesuai
+517035,3912,8,2,23,0,0.9587,Kurang Sesuai
+1057249,4200,1,0,11,0,0.737,Kurang Sesuai
+1149384,311,3,0,19,1,0.8482,Kurang Sesuai
+1145092,621,3,1,17,1,0.9834,Kurang Sesuai
+1420389,3362,2,2,14,0,1.072,Kurang Sesuai
+1199241,4995,3,3,13,1,1.2932,Kurang Sesuai
+616883,217,3,0,8,1,1.6026,Kurang Sesuai
+340063,3361,7,0,11,1,2.0,Kurang Sesuai
+999035,768,3,1,16,0,0.7521,Direkomendasikan
+1390815,3285,8,5,22,1,0.8681,Kurang Sesuai
+1467701,3154,7,5,22,1,0.9691,Kurang Sesuai
+499278,543,9,8,9,1,0.6047,Sangat Direkomendasikan
+507392,3435,1,0,18,0,1.51,Kurang Sesuai
+248636,4495,9,1,7,1,2.0,Kurang Sesuai
+383640,4330,6,0,18,1,0.9643,Kurang Sesuai
+921308,242,9,1,12,0,0.6798,Direkomendasikan
+910844,1304,4,0,14,1,0.8264,Kurang Sesuai
+682198,1280,9,8,19,1,0.6418,Direkomendasikan
+602942,2321,6,1,14,0,1.2023,Kurang Sesuai
+1278726,800,1,1,21,1,0.7715,Direkomendasikan
+798044,4286,4,2,16,0,1.4353,Kurang Sesuai
+1250726,3906,2,1,24,1,1.104,Kurang Sesuai
+1452175,4060,9,4,18,1,0.9246,Kurang Sesuai
+612280,1071,3,3,11,1,1.7359,Kurang Sesuai
+463559,171,3,0,20,0,0.5453,Direkomendasikan
+1438769,4562,5,0,13,1,0.7851,Kurang Sesuai
+1025280,1515,4,2,16,0,0.885,Direkomendasikan
+578193,3315,1,0,8,1,1.1059,Kurang Sesuai
+1008417,4556,8,4,8,1,1.2804,Kurang Sesuai
+869574,277,8,6,16,0,0.8167,Direkomendasikan
+1377191,126,7,4,9,0,0.9137,Direkomendasikan
+532754,126,6,1,24,0,0.6337,Direkomendasikan
+1488797,865,4,1,22,1,0.8911,Kurang Sesuai
+1416856,353,5,4,19,0,1.1618,Direkomendasikan
+434912,4117,5,1,19,0,1.872,Kurang Sesuai
+413990,3069,2,1,17,0,0.5605,Direkomendasikan
+893103,4902,1,1,7,0,1.2399,Kurang Sesuai
+258383,4027,3,3,13,0,0.3643,Direkomendasikan
+588437,4819,5,4,15,0,1.5768,Kurang Sesuai
+765626,1268,2,1,23,0,0.7303,Direkomendasikan
+1460185,1510,1,0,10,1,0.7525,Kurang Sesuai
+1490088,4262,8,3,15,0,0.9657,Kurang Sesuai
+397001,1299,4,2,12,1,2.0,Kurang Sesuai
+1359180,380,6,1,8,1,0.772,Direkomendasikan
+318207,3378,5,3,7,1,1.8935,Kurang Sesuai
+1173190,4024,7,1,12,0,0.9058,Kurang Sesuai
+1299335,4844,7,5,7,0,0.7271,Kurang Sesuai
+1358030,4646,3,3,7,1,0.8211,Kurang Sesuai
+490443,689,8,8,12,1,2.0,Kurang Sesuai
+1361480,3883,4,0,9,1,0.7925,Kurang Sesuai
+350775,4246,8,6,16,0,1.9513,Kurang Sesuai
+874515,3520,4,0,6,0,0.7449,Kurang Sesuai
+810408,4117,1,0,11,0,0.8046,Kurang Sesuai
+610707,4206,7,1,14,0,1.1289,Kurang Sesuai
+228748,2288,1,0,24,1,0.8547,Kurang Sesuai
+1203616,296,7,1,18,0,1.2062,Kurang Sesuai
+636258,2335,1,0,22,0,0.5652,Kurang Sesuai
+1060159,1088,2,2,12,1,1.115,Direkomendasikan
+733285,657,6,0,14,1,1.078,Kurang Sesuai
+685755,712,9,3,13,0,0.8702,Direkomendasikan
+1352184,3517,4,3,22,0,0.8504,Kurang Sesuai
+322806,2572,2,2,24,1,0.7559,Direkomendasikan
+1157602,2745,3,3,24,1,0.9175,Direkomendasikan
+1170826,3751,9,1,20,1,0.8757,Kurang Sesuai
+693988,2786,7,7,15,1,0.6425,Direkomendasikan
+541198,3187,1,1,16,1,0.9711,Kurang Sesuai
+206899,521,4,0,24,0,0.3613,Direkomendasikan
+1417857,4270,3,1,11,0,0.8114,Kurang Sesuai
+1432050,2299,2,2,12,1,0.7534,Direkomendasikan
+513261,860,8,3,23,0,0.6026,Direkomendasikan
+241484,4085,6,1,13,0,1.739,Kurang Sesuai
+359585,3699,2,2,10,0,0.5296,Direkomendasikan
+287935,359,6,6,16,1,0.4989,Sangat Direkomendasikan
+1280446,1045,4,4,12,0,1.0564,Direkomendasikan
+1359484,177,1,1,22,0,0.8487,Direkomendasikan
+399269,1426,5,5,23,0,1.3236,Kurang Sesuai
+1170761,589,2,1,11,0,0.9081,Direkomendasikan
+433048,3578,3,0,16,1,0.5621,Kurang Sesuai
+677371,2660,8,5,24,0,1.2824,Kurang Sesuai
+979197,4903,7,1,20,1,1.0321,Kurang Sesuai
+1135904,3772,2,1,10,0,0.7716,Kurang Sesuai
+1336930,3096,8,5,17,1,0.955,Kurang Sesuai
+258220,2595,6,6,17,1,0.3553,Sangat Direkomendasikan
+455365,367,8,2,18,1,2.0,Kurang Sesuai
+564661,443,7,2,6,1,0.6705,Direkomendasikan
+603420,3119,4,3,11,0,0.632,Direkomendasikan
+1497436,121,5,0,22,1,0.7752,Direkomendasikan
+1210626,307,5,3,10,1,1.1685,Direkomendasikan
+616542,1173,7,5,11,1,0.5585,Direkomendasikan
+1463374,4432,3,2,12,1,0.9906,Kurang Sesuai
+849099,2348,3,1,9,1,1.0221,Kurang Sesuai
+850963,3576,3,3,8,1,1.0186,Kurang Sesuai
+763808,2116,3,1,12,1,0.7839,Kurang Sesuai
+387066,948,2,2,22,1,0.6299,Sangat Direkomendasikan
+1414684,1918,1,0,6,0,0.947,Kurang Sesuai
+218117,549,9,0,11,0,2.0,Kurang Sesuai
+426562,3874,1,1,7,0,0.4657,Direkomendasikan
+498552,999,8,0,16,0,1.3251,Kurang Sesuai
+563086,1944,1,1,10,0,1.6653,Kurang Sesuai
+371368,4902,7,4,21,0,0.6761,Kurang Sesuai
+223349,3000,3,1,17,0,0.8819,Kurang Sesuai
+1080956,2346,5,2,20,0,0.8489,Kurang Sesuai
+1460102,2760,3,2,18,1,0.7848,Direkomendasikan
+358382,3941,5,1,14,1,2.0,Kurang Sesuai
+585495,1346,5,1,22,1,1.1419,Kurang Sesuai
+858228,3218,5,2,15,0,0.8834,Kurang Sesuai
+1405753,4376,4,1,24,0,0.8098,Kurang Sesuai
+1102541,2904,5,4,24,1,0.8593,Direkomendasikan
+1196044,2288,8,0,17,0,0.9948,Kurang Sesuai
+955451,811,4,4,18,1,0.8355,Direkomendasikan
+742146,1316,4,1,10,0,0.6053,Direkomendasikan
+459708,4735,2,1,21,0,0.8454,Kurang Sesuai
+1323608,2752,4,0,18,1,0.7649,Kurang Sesuai
+1245361,1576,2,1,23,0,0.7936,Direkomendasikan
+232631,2150,2,2,11,0,1.3394,Kurang Sesuai
+1130029,2932,9,2,20,1,1.0975,Kurang Sesuai
+309704,2733,1,0,14,0,0.4948,Kurang Sesuai
+1160679,3528,5,3,9,1,1.1305,Kurang Sesuai
+1273739,1361,8,1,9,0,1.0245,Kurang Sesuai
+370375,3281,9,3,16,0,1.4317,Kurang Sesuai
+763986,2269,2,1,12,1,0.805,Kurang Sesuai
+360879,4708,2,1,7,0,1.2184,Kurang Sesuai
+937466,873,4,3,14,1,0.8052,Direkomendasikan
+1405831,827,5,4,18,1,0.7584,Direkomendasikan
+305130,2362,9,8,12,1,0.4562,Direkomendasikan
+716851,2590,2,0,24,0,0.61,Kurang Sesuai
+1465056,3485,2,1,20,1,1.2367,Kurang Sesuai
+591233,2079,3,0,15,1,0.9018,Kurang Sesuai
+371881,4577,8,0,23,1,1.4995,Kurang Sesuai
+835159,2423,1,0,14,0,0.6579,Kurang Sesuai
+860884,733,4,2,8,1,0.7616,Direkomendasikan
+1061723,684,2,2,6,0,1.0431,Direkomendasikan
+607858,4869,2,2,23,1,0.8012,Kurang Sesuai
+1442310,757,9,6,24,0,0.8867,Direkomendasikan
+877329,4744,1,1,20,1,0.9009,Kurang Sesuai
+572380,1462,3,0,7,1,0.8781,Kurang Sesuai
+1448369,557,9,8,11,0,1.2145,Direkomendasikan
+1402250,1593,6,6,6,1,0.9577,Direkomendasikan
+848914,3112,1,0,6,1,1.0258,Kurang Sesuai
+232317,2196,5,2,10,0,0.3958,Direkomendasikan
+976016,3949,9,8,16,0,0.7134,Direkomendasikan
+921757,3093,4,2,7,1,0.7542,Kurang Sesuai
+392670,2063,5,5,24,0,2.0,Kurang Sesuai
+1024167,3209,5,5,14,0,0.733,Direkomendasikan
+1293031,4860,6,3,11,1,0.9869,Kurang Sesuai
+337666,2117,2,0,15,0,0.9107,Kurang Sesuai
+1140319,851,8,3,21,1,0.7143,Direkomendasikan
+382441,2103,9,2,11,0,0.4927,Direkomendasikan
+1173474,4216,2,1,6,1,1.2836,Kurang Sesuai
+744848,1166,8,5,6,0,1.0166,Direkomendasikan
+208464,4750,8,4,22,1,0.4102,Kurang Sesuai
+1456101,2982,7,1,8,1,0.9174,Kurang Sesuai
+415761,3047,4,1,18,0,1.2918,Kurang Sesuai
+974855,1653,5,4,13,0,0.8905,Direkomendasikan
+435908,4610,8,0,20,1,0.5257,Kurang Sesuai
+1412930,276,2,0,7,1,1.094,Kurang Sesuai
+1159823,1563,8,8,23,1,0.7962,Direkomendasikan
+1245669,2150,9,0,19,0,0.8123,Kurang Sesuai
+761703,2438,7,3,14,1,0.6509,Direkomendasikan
+807596,2423,4,1,9,1,1.0826,Kurang Sesuai
+1024591,824,6,0,24,0,1.1418,Kurang Sesuai
+1220192,1205,1,0,11,0,0.8983,Kurang Sesuai
+1301073,566,9,5,15,0,0.9123,Direkomendasikan
+223187,2905,4,0,13,1,0.8899,Kurang Sesuai
+1062629,1819,1,0,10,0,0.7667,Kurang Sesuai
+341887,2872,8,1,13,0,0.5019,Kurang Sesuai
+574311,2989,6,4,8,1,1.2197,Kurang Sesuai
+1278257,3539,6,6,6,0,0.7916,Direkomendasikan
+525667,2780,1,0,11,1,1.2813,Kurang Sesuai
+1235862,3274,7,2,8,1,0.9793,Kurang Sesuai
+801910,2977,6,2,13,1,1.5314,Kurang Sesuai
+502432,3296,8,3,22,1,1.0583,Kurang Sesuai
+634517,3121,8,2,9,1,0.5761,Kurang Sesuai
+890000,1649,2,0,6,1,0.9427,Kurang Sesuai
+1194691,1306,2,1,8,1,0.8168,Direkomendasikan
+987820,3958,9,3,15,0,1.276,Kurang Sesuai
+1413190,1779,5,2,11,0,0.8715,Kurang Sesuai
+1328060,2790,4,1,15,1,1.0021,Kurang Sesuai
+1179359,1065,3,3,6,0,0.7998,Direkomendasikan
+984039,2213,6,4,12,1,0.6898,Direkomendasikan
+576812,2695,7,3,13,1,0.8216,Kurang Sesuai
+736343,3167,1,0,14,1,1.4199,Kurang Sesuai
+354562,2679,5,4,16,0,0.8142,Direkomendasikan
+686439,1867,9,8,20,0,1.4156,Kurang Sesuai
+1404413,4812,3,0,14,0,0.9593,Kurang Sesuai
+753646,2612,3,3,21,1,1.4996,Kurang Sesuai

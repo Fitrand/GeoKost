@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: geokost-backend
+    env: python
+    region: singapore
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /
+    envVars:
+      - key: DATABASE_URL
+        sync: false  # Set via Render dashboard
+      - key: APP_SECRET_KEY
+        sync: false  # Set via Render dashboard — MUST be a strong random string
+      - key: APP_ENV
+        value: production
+      - key: CORS_ORIGINS
+        sync: false  # Isi URL Vercel: ["https://geokost.vercel.app"]
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_ANON_KEY
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: REDIS_URL
+        sync: false  # Optional: Upstash Redis URL
