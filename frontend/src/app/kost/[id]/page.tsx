@@ -91,6 +91,16 @@ export default function DetailKostPage({ params }: { params: Promise<{ id: strin
     setTanggalMasuk(d.toISOString().split("T")[0]);
   }, []);
 
+  // Fetch harga rata-rata area dari API (real data, bukan mock)
+  const [hargaArea, setHargaArea] = useState<{ harga_rata_rata: number | null; total_pembanding: number; radius_km: number; tipe_kamar?: string } | null>(null);
+  useEffect(() => {
+    if (!kost?.id) return;
+    fetch(`${API}/api/kost/${kost.id}/harga-area`)
+      .then(r => r.ok ? r.json() : null)
+      .then(data => setHargaArea(data))
+      .catch(() => {});
+  }, [kost?.id]);
+
   if (loading) return (
     <div style={{ minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center", background: "var(--color-bg)" }}>
       <div style={{ textAlign: "center" }}><div style={{ fontSize: "2.5rem", marginBottom: 12 }}>⏳</div><p>Memuat detail kost...</p></div>
@@ -108,16 +118,6 @@ export default function DetailKostPage({ params }: { params: Promise<{ id: strin
   );
 
   const photos = kost.foto_urls && kost.foto_urls.length > 0 ? kost.foto_urls : [];
-
-  // Fetch harga rata-rata area dari API (real data, bukan mock)
-  const [hargaArea, setHargaArea] = useState<{ harga_rata_rata: number | null; total_pembanding: number; radius_km: number; tipe_kamar?: string } | null>(null);
-  useEffect(() => {
-    if (!kost?.id) return;
-    fetch(`${API}/api/kost/${kost.id}/harga-area`)
-      .then(r => r.ok ? r.json() : null)
-      .then(data => setHargaArea(data))
-      .catch(() => {});
-  }, [kost?.id]);
 
   const harga_area_rata = hargaArea?.harga_rata_rata ?? null;
   const selisihPersen = harga_area_rata
