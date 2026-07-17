@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
+import { useAuthStore } from "@/store/authStore";
 
 const FAQ = [
   { q: "Apakah GeoKost gratis digunakan?", a: "Ya, GeoKost sepenuhnya gratis untuk mahasiswa. Pemilik kost dapat mendaftarkan properti secara gratis dengan opsi upgrade ke listing Premium." },
@@ -20,6 +22,8 @@ const CONTACTS = [
 const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 
 export default function KontakPage() {
+  const router = useRouter();
+  const { user, token, logout } = useAuthStore();
   const [form, setForm] = useState({ nama: "", email: "", topik: "", pesan: "" });
   const [sent, setSent] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -62,9 +66,18 @@ export default function KontakPage() {
               <Link key={l} href={h} style={{ fontSize: 14, color: l === "Kontak" ? "#131b2e" : "#45464d", fontWeight: l === "Kontak" ? 700 : 500, textDecoration: "none", borderBottom: l === "Kontak" ? "2px solid #006e2f" : "none", paddingBottom: 2 }}>{l}</Link>
             ))}
           </nav>
-          <div style={{ display: "flex", gap: 12 }}>
-            <Link href="/login" style={{ fontSize: 14, color: "#45464d", textDecoration: "none", fontWeight: 500 }}>Login</Link>
-            <Link href="/register" style={{ padding: "9px 20px", borderRadius: 9999, background: "#131b2e", color: "#fff", fontWeight: 700, fontSize: 13, textDecoration: "none" }}>Sign Up</Link>
+          <div style={{ display: "flex", gap: 12, alignItems: "center" }}>
+            {token ? (
+              <>
+                <Link href={user?.role === "mitra" ? "/mitra/dashboard" : "/mahasiswa/cari"} style={{ padding: "9px 20px", borderRadius: 9999, background: "#131b2e", color: "#fff", fontWeight: 700, fontSize: 13, textDecoration: "none" }}>Dashboard</Link>
+                <button onClick={() => { logout(); router.push('/login'); }} style={{ padding: "8px 20px", borderRadius: 9999, border: "1.5px solid #c6c6cd", background: "transparent", color: "#131b2e", fontWeight: 600, fontSize: 13, cursor: "pointer" }}>Logout</button>
+              </>
+            ) : (
+              <>
+                <Link href="/login" style={{ fontSize: 14, color: "#45464d", textDecoration: "none", fontWeight: 500 }}>Login</Link>
+                <Link href="/register" style={{ padding: "9px 20px", borderRadius: 9999, background: "#131b2e", color: "#fff", fontWeight: 700, fontSize: 13, textDecoration: "none" }}>Sign Up</Link>
+              </>
+            )}
           </div>
         </div>
       </header>

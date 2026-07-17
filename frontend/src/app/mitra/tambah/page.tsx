@@ -80,8 +80,8 @@ export default function TambahKostPage() {
       if (!L || !mapRef.current) return;
 
       const map = L.map(mapRef.current, { zoomControl: true }).setView([DEFAULT_LAT, DEFAULT_LNG], 14);
-      L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
-        attribution: "© OpenStreetMap © CARTO",
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        attribution: "© OpenStreetMap contributors",
         maxZoom: 19,
       }).addTo(map);
 

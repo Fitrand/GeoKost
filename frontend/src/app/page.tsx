@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
+import { useAuthStore } from "@/store/authStore";
 
 const FEATURES = [
   { icon: "🗺️", title: "Peta Interaktif GIS", desc: "Visualisasi real-time lokasi kost & radius kampus dengan PostGIS.", color: "#131b2e" },
@@ -67,6 +68,7 @@ const s = {
 
 export default function HomePage() {
   const router = useRouter();
+  const { user, token, logout } = useAuthStore();
   const [searchQ, setSearchQ] = useState("");
   const [kostList, setKostList] = useState<any[]>([]);
   const [stats, setStats] = useState({ total_kost: 0, total_kampus: 0 });
@@ -110,8 +112,17 @@ export default function HomePage() {
             ))}
           </nav>
           <div style={{ display: "flex", gap: 12, alignItems: "center" }}>
-            <Link href="/login" style={{ fontSize: 14, fontWeight: 500, color: "#45464d", textDecoration: "none" }}>Login</Link>
-            <Link href="/register" style={s.btnPrimary}>Sign Up</Link>
+            {token ? (
+              <>
+                <Link href={user?.role === "mitra" ? "/mitra/dashboard" : "/mahasiswa/cari"} style={s.btnPrimary}>Dashboard</Link>
+                <button onClick={() => { logout(); router.push('/login'); }} style={{ ...s.btnSecondary, padding: "8px 20px", cursor: "pointer" }}>Logout</button>
+              </>
+            ) : (
+              <>
+                <Link href="/login" style={{ fontSize: 14, fontWeight: 500, color: "#45464d", textDecoration: "none" }}>Login</Link>
+                <Link href="/register" style={s.btnPrimary}>Sign Up</Link>
+              </>
+            )}
           </div>
         </div>
       </header>

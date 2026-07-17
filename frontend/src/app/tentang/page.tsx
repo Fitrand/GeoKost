@@ -1,9 +1,12 @@
+"use client";
 import Link from "next/link";
-
+import { useRouter } from "next/navigation";
+import { useAuthStore } from "@/store/authStore";
 const TEAM = [
-  { nama: "Ahmad Rizki", peran: "Full-Stack Developer & GIS Engineer", inisial: "AR", color: "#131b2e" },
-  { nama: "Siti Rahma", peran: "Machine Learning & Data Scientist", inisial: "SR", color: "#006e2f" },
-  { nama: "Budi Santoso", peran: "UI/UX Designer", inisial: "BS", color: "#7c3aed" },
+  { nama: "Sherly Nadia Refica", peran: "Founder & CEO", nim: "230180095", inisial: "SN", color: "#131b2e" },
+  { nama: "Alvin Hadafi Albar", peran: "Data & Sales", nim: "230180089", inisial: "AH", color: "#006e2f" },
+  { nama: "Satria Harry Menov", peran: "UI/UX & Design", nim: "230180090", inisial: "SH", color: "#7c3aed" },
+  { nama: "Fitra Novriandika", peran: "Chief Developer", nim: "230180114", inisial: "FN", color: "#e83e8c" },
 ];
 
 const VALUES = [
@@ -14,6 +17,8 @@ const VALUES = [
 ];
 
 export default function TentangPage() {
+  const router = useRouter();
+  const { user, token, logout } = useAuthStore();
   return (
     <div style={{ minHeight: "100vh", background: "#f8f9ff", fontFamily: "'Inter',system-ui,sans-serif" }}>
       {/* Navbar */}
@@ -28,9 +33,18 @@ export default function TentangPage() {
               <Link key={l} href={h} style={{ fontSize: 14, color: l === "Tentang Kami" ? "#131b2e" : "#45464d", fontWeight: l === "Tentang Kami" ? 700 : 500, textDecoration: "none", borderBottom: l === "Tentang Kami" ? "2px solid #006e2f" : "none", paddingBottom: 2 }}>{l}</Link>
             ))}
           </nav>
-          <div style={{ display: "flex", gap: 12 }}>
-            <Link href="/login" style={{ fontSize: 14, color: "#45464d", textDecoration: "none", fontWeight: 500 }}>Login</Link>
-            <Link href="/register" style={{ padding: "9px 20px", borderRadius: 9999, background: "#131b2e", color: "#fff", fontWeight: 700, fontSize: 13, textDecoration: "none" }}>Sign Up</Link>
+          <div style={{ display: "flex", gap: 12, alignItems: "center" }}>
+            {token ? (
+              <>
+                <Link href={user?.role === "mitra" ? "/mitra/dashboard" : "/mahasiswa/cari"} style={{ padding: "9px 20px", borderRadius: 9999, background: "#131b2e", color: "#fff", fontWeight: 700, fontSize: 13, textDecoration: "none" }}>Dashboard</Link>
+                <button onClick={() => { logout(); router.push('/login'); }} style={{ padding: "8px 20px", borderRadius: 9999, border: "1.5px solid #c6c6cd", background: "transparent", color: "#131b2e", fontWeight: 600, fontSize: 13, cursor: "pointer" }}>Logout</button>
+              </>
+            ) : (
+              <>
+                <Link href="/login" style={{ fontSize: 14, color: "#45464d", textDecoration: "none", fontWeight: 500 }}>Login</Link>
+                <Link href="/register" style={{ padding: "9px 20px", borderRadius: 9999, background: "#131b2e", color: "#fff", fontWeight: 700, fontSize: 13, textDecoration: "none" }}>Sign Up</Link>
+              </>
+            )}
           </div>
         </div>
       </header>
@@ -95,7 +109,8 @@ export default function TentangPage() {
             <div key={t.nama} style={{ background: "#fff", borderRadius: 20, border: "1px solid #e5eeff", padding: "28px 24px", width: 220, boxShadow: "0 4px 20px rgba(15,23,42,.06)" }}>
               <div style={{ width: 64, height: 64, borderRadius: "50%", background: t.color, display: "flex", alignItems: "center", justifyContent: "center", color: "#fff", fontWeight: 800, fontSize: "1.4rem", margin: "0 auto 16px" }}>{t.inisial}</div>
               <div style={{ fontFamily: "'Plus Jakarta Sans',sans-serif", fontWeight: 700, fontSize: 15, color: "#131b2e", marginBottom: 4 }}>{t.nama}</div>
-              <div style={{ fontSize: 12, color: "#76777d", lineHeight: 1.5 }}>{t.peran}</div>
+              <div style={{ fontSize: 12, color: "#76777d", lineHeight: 1.5, marginBottom: 2 }}>{t.peran}</div>
+              <div style={{ fontSize: 11, color: "#9ca3af", fontWeight: 600 }}>NIM: {t.nim}</div>
             </div>
           ))}
         </div>
